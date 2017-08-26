@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Exercise Checkbox</title>
+</head>
+
+<body>
+    <h1>Tecnologies</h1>
+    <form id="one" action="http://httpbin.org/post" method="post">
+        <fieldset>
+            <legend>Tecnologies</legend>
+            <div>
+                <input type="checkbox" id="html" name="option" value="html">
+                <label for="html">HTML</label>
+            </div>
+            <div>
+                <input type="checkbox" id="css" name="option" value="css">
+                <label for="css">CSS</label>
+            </div>
+            <div>
+                <input type="checkbox" id="js" name="option" value="javascript">
+                <label for="js">JavaScript</label>
+            </div>
+            <div>
+                <input type="checkbox" id="java" name="option" value="java">
+                <label for="java">Java</label>
+            </div>
+            <div>
+                <input type="checkbox" id="nodejs" name="option" value="nodejs">
+                <label for="nodejs">NodeJS</label>
+            </div>
+            <div>
+                <button type="submit">Enviar</button>
+            </div>
+        </fieldset>
+    </form>
+    <h1>Personal Data</h1>
+    <fieldset>
+        <legend>PersonalData</legend>
+        <form id="two" action="http://httpbin.org/post" method="post">
+            <div>
+                <div>
+                    <h3>Coutry</h3>
+                    <select name="coutry">
+                            <option value="Brazil">Brazil</option>
+                            <option value="USA">USA</option>
+                            <option value="Singapore">Singapore</option>
+                            <option value="Canada">Canada</option>
+                    </select>
+                </div>
+            </div>
+            <div>
+                <div>
+                    <h3>Gender</h3>
+                    <input type="radio" name="gender" value="male" checked>Male
+                    <input type="radio" name="gender" value="female">Female
+                </div>
+                <div>
+                    <button type="submit">Enviar</button>
+                </div>
+            </div>
+        </form>
+    </fieldset>
+
+</body>
+
+</html>
