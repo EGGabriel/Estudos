@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Aprendendo</title>
+    <script src="index.js"></script>
+</head>
+
+<body>
+    <input type="range" min "0" max "100" value="0" oninput="volumeValue.value=this.value">
+    <div>
+        <label>Volume: </label>
+        <input type="text" id="volumeValue" value="0">
+    </div>
+    <hr>
+    <div>
+        <label>Volume: </label>
+        <input type="text" value="0" oninput="changeValue.value = this.value">
+    </div>
+    <input type="range" min "0" max "100" value="0" id="changeValue">
+    <hr>
+
+    <input type="range" min "0" max "100" id="lbValue" value="0" oninput="vmValue.value=this.value">
+    <div>
+        <label>Volume: </label>
+        <input type="text" id="vmValue" value="0" oninput="lbValue.value=this.value">
+    </div>
+        <br><br>
+    <hr>
+
+    <button onclick="myFunction()">Crie um Range Novo</button>
+</body>
+
+</html>
