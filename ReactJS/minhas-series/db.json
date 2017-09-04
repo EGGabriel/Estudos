@@ -1,0 +1,100 @@
+{
+  "series": [
+    {
+      "id": 1,
+      "name": "How I met your mother",
+      "status": "watched",
+      "genre": "Comédia",
+      "comments": "Muito bom"
+    },
+    {
+      "id": 2,
+      "name": "Friends",
+      "status": "watching",
+      "genre": "Comédia",
+      "current": {
+        "episode": "01",
+        "season": "09"
+      },
+      "comments": "Bom para descontrair"
+    },
+    {
+      "id": 3,
+      "name": "Breaking Bad",
+      "status": "watched",
+      "genre": "Drama",
+      "comments": "Say My Name - melhor cena"
+    },
+    {
+      "id": 4,
+      "name": "Better Call Saul",
+      "status": "toWatch",
+      "genre": "Drama",
+      "comments": "Galera fala bem"
+    },
+    {
+      "name": "Duro De Matar",
+      "status": "Watching",
+      "genre": "Ação",
+      "comment": "Muito Boa",
+      "id": 5
+    },
+    {
+      "name": "Kill Bill",
+      "status": "toWatch",
+      "genre": "Ação",
+      "comment": "Maniero",
+      "id": 6
+    },
+    {
+      "name": "Die Hard 2",
+      "status": "toWatch",
+      "genre": "Ação",
+      "comment": "legal",
+      "id": 7
+    },
+    {
+      "name": "Bojack Horseman",
+      "status": "Watching",
+      "genre": "Animação",
+      "comment": "e uma serie maneira de um cavalo",
+      "id": 8
+    },
+    {
+      "name": "Sons of Anarchy",
+      "status": "watched",
+      "genre": "Drama",
+      "comment": "Muito boa, recomendo a todos!",
+      "id": 9
+    },
+    {
+      "name": "",
+      "status": "watched",
+      "genre": "Comédia",
+      "comment": "",
+      "id": 10
+    },
+    {
+      "name": "",
+      "status": "watched",
+      "genre": "Comédia",
+      "comment": "",
+      "id": 11
+    },
+    {
+      "name": "The Walking Dead",
+      "status": "watched",
+      "genre": "Drama",
+      "comment": "é uma serie de zumbis",
+      "id": 12
+    }
+  ],
+  "genres": [
+    "Comédia",
+    "Drama",
+    "Ação",
+    "Besteirol",
+    "Aventura",
+    "Animação"
+  ]
+}
