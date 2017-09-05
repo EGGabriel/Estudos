@@ -15,12 +15,12 @@ class Series extends Component {
         }
     }
     componentDidMount() {
-        this.setState({isloading:true})
-        api.loadSeriesByGenre(this.props.match.params.genre).then((res) =>{ 
+        this.setState({ isloading: true })
+        api.loadSeriesByGenre(this.props.match.params.genre).then((res) => {
             this.setState({
                 isloading: false,
-                series: res.data 
-            }) 
+                series: res.data
+            })
         })
     }
     renderSeries(series) {
@@ -29,17 +29,16 @@ class Series extends Component {
                 <div className="thumbnail">
                     <img className="group list-group-image" src="http://placehold.it/400x250/000/fff" alt="" />
                     <div className="caption">
-                        <h4 className="group inner list-group-item-heading">
-                            {series.name}
-                        </h4>
+                        <h4 className="group inner list-group-item-heading"> {series.name} </h4>
                         <div className="row">
-                            <div className="col-xs-12 col-md-6">
-                                <p className="lead">
-                                    {series.genre} / {statuses[series.status]}
-                                </p>
+                            <div className="col-xs-12 col-md-12">
+                                <p className="lead"> {series.genre} / {statuses[series.status]} </p>
                             </div>
-                            <div className="col-xs-12 col-md-6">
-                                <a className="btn btn-success" href="http://www.jquery2dotnet.com">Gerenciar</a>
+                            <div className="col-xs-12 col-md-12">
+                                <p className="lead"> Comment: {series.comment}</p>
+                            </div>
+                            <div className="col-xs-12 col-md-12">
+                                <a className="btn btn-success" href="#">Assisstir (Em Construção)</a>
                             </div>
                         </div>
                     </div>

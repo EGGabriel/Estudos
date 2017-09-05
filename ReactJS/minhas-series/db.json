@@ -4,14 +4,14 @@
       "id": 1,
       "name": "How I met your mother",
       "status": "watched",
-      "genre": "Comédia",
+      "genre": "Comédia-Humor-Besteirol",
       "comments": "Muito bom"
     },
     {
       "id": 2,
       "name": "Friends",
       "status": "watching",
-      "genre": "Comédia",
+      "genre": "Comédia-Humor-Besteirol",
       "current": {
         "episode": "01",
         "season": "09"
@@ -33,68 +33,37 @@
       "comments": "Galera fala bem"
     },
     {
-      "name": "Duro De Matar",
-      "status": "Watching",
-      "genre": "Ação",
-      "comment": "Muito Boa",
+      "name": "",
+      "status": "watched",
+      "genre": "Comédia-Humor-Besteirol",
+      "comment": "",
       "id": 5
     },
     {
-      "name": "Kill Bill",
-      "status": "toWatch",
-      "genre": "Ação",
-      "comment": "Maniero",
+      "name": "",
+      "status": "watched",
+      "genre": "Comédia-Humor-Besteirol",
+      "comment": "",
       "id": 6
     },
     {
-      "name": "Die Hard 2",
-      "status": "toWatch",
-      "genre": "Ação",
-      "comment": "legal",
+      "name": "",
+      "status": "watched",
+      "genre": "Comédia-Humor-Besteirol",
+      "comment": "",
       "id": 7
     },
     {
-      "name": "Bojack Horseman",
-      "status": "Watching",
-      "genre": "Animação",
-      "comment": "e uma serie maneira de um cavalo",
+      "name": "",
+      "status": "watched",
+      "genre": "Comédia-Humor-Besteirol",
+      "comment": "",
       "id": 8
-    },
-    {
-      "name": "Sons of Anarchy",
-      "status": "watched",
-      "genre": "Drama",
-      "comment": "Muito boa, recomendo a todos!",
-      "id": 9
-    },
-    {
-      "name": "",
-      "status": "watched",
-      "genre": "Comédia",
-      "comment": "",
-      "id": 10
-    },
-    {
-      "name": "",
-      "status": "watched",
-      "genre": "Comédia",
-      "comment": "",
-      "id": 11
-    },
-    {
-      "name": "The Walking Dead",
-      "status": "watched",
-      "genre": "Drama",
-      "comment": "é uma serie de zumbis",
-      "id": 12
     }
   ],
   "genres": [
-    "Comédia",
+    "Comédia-Humor-Besteirol",
     "Drama",
-    "Ação",
-    "Besteirol",
-    "Aventura",
-    "Animação"
+    "Ação/Aventura"
   ]
 }
